@@ -1,0 +1,35 @@
+.nostrud-sec {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #F0F0F0;
+    .col-md-7, .col-md-5 {
+        
+        h1 {
+            padding-bottom: 15px;
+        }
+        img {
+            margin: 15px 15px 15px 0;
+            &:hover{
+                transform: scale(1.1, 1.1);
+                transition: all 0.5s ease-in-out;
+            }
+        }
+        .nostrud-right {
+            justify-content: center;
+            align-items: center;
+            text-align: start;
+            margin-top: 50px;
+            button {
+                color: white;
+                width: 158px;
+                height: 51px;
+                background-color: #ED834E;
+                border: none;
+                &:hover{
+                    transform: scale(1.1, 1.1);
+                    transition: all 0.5s ease-in-out;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.footer{
+background-color: #222222 ;  
+height: 292px;
+display: flex;
+justify-content: center;
+align-items: center;
+  .container {
+        color: white;
+        padding-top: 50px;
+        
+        .right{
+            justify-content: end;
+            align-items: end;
+            text-align: end;
+            margin-right: 0;
+            .list-items-1 {
+                display: flex;
+                list-style: none;
+                justify-content: end;
+                padding-top: 15px;
+                a {
+                    text-align: end;
+                    padding: 15px 0 15px 15px;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
